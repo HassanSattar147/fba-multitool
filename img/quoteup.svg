@@ -1,0 +1,24 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Iconsax/Linear/quoteup">
+<path id="Vector" d="M2.4931 12.9885H8.51463C10.1031 12.9885 11.1932 14.1928 11.1932 15.6671V19.0101C11.1932 20.4843 10.1031 21.6886 8.51463 21.6886H5.17164C3.69741 21.6886 2.4931 20.4843 2.4931 19.0101V12.9885" stroke="url(#paint0_linear_107_5561)" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M2.4931 12.9884C2.4931 6.70737 3.66626 5.66917 7.19612 3.57202M14.5673 12.9884H20.5888C22.1773 12.9884 23.2674 14.1928 23.2674 15.667V19.01C23.2674 20.4842 22.1773 21.6885 20.5888 21.6885H17.2458C15.7716 21.6885 14.5673 20.4842 14.5673 19.01V12.9884" stroke="url(#paint1_linear_107_5561)" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M14.5673 12.9884C14.5673 6.70737 15.7404 5.66917 19.2703 3.57202" stroke="url(#paint2_linear_107_5561)" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_107_5561" x1="2.4931" y1="12.9885" x2="12.4745" y2="15.0493" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF6939"/>
+<stop offset="0.0001" stop-color="#FF3D00"/>
+<stop offset="1" stop-color="#F3AB3F"/>
+</linearGradient>
+<linearGradient id="paint1_linear_107_5561" x1="2.4931" y1="3.57202" x2="26.024" y2="9.14303" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF6939"/>
+<stop offset="0.0001" stop-color="#FF3D00"/>
+<stop offset="1" stop-color="#F3AB3F"/>
+</linearGradient>
+<linearGradient id="paint2_linear_107_5561" x1="14.5673" y1="3.57202" x2="20.1338" y2="4.14603" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF6939"/>
+<stop offset="0.0001" stop-color="#FF3D00"/>
+<stop offset="1" stop-color="#F3AB3F"/>
+</linearGradient>
+</defs>
+</svg>
