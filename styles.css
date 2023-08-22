@@ -8,6 +8,7 @@
   padding-block: 0rem;
   border-bottom: 1px solid transparent;
   transition: all 0.2s;
+  text-align: center;
 }
 .btn-text:hover {
   padding-block: 1.2rem;
@@ -28,6 +29,7 @@
   border-radius: 20rem;
   cursor: pointer;
   user-select: none;
+  text-align: center;
 }
 .btn-primary:hover {
   background: #3f3f3f;
@@ -36,14 +38,18 @@
   background: #323232;
 }
 .btn-primary-gradient {
-  background: linear-gradient(101.67deg, #ff6939 0%, #ff3d00 0.01%, #f3ab3f 99.15%);
-  transition: background 0.2s;
+  background: linear-gradient(135deg, #ff6939 0%, #ff3d00 0.01%, #f3ab3f 99.15%);
+  text-align: center;
+  background-size: 100%;
+  transition: all .2s ease-in-out;
 }
 .btn-primary-gradient:hover {
-  background: linear-gradient(101.67deg, #ff6939 0%, #ff3d00 30%, #f3ab3f 99.15%);
+  background: linear-gradient(135deg, #ff6939 0%, #ff3d00 0.01%, #f3ab3f 99.15%);
+  background-size: 200%;
 }
 .btn-primary-gradient:active {
-  background: linear-gradient(101.67deg, #ff6939 0%, #ff3d00 0.01%, #f3ab3f 99.15%);
+  background: linear-gradient(135deg, #ff6939 0%, #ff3d00 0.01%, #f3ab3f 99.15%);
+  background-size: 100%;
 }
 
 .btn-outline {
@@ -52,11 +58,12 @@
   text-transform: uppercase;
   font-weight: 500;
   background-image: linear-gradient(101.67deg, #ff6939 0%, #ff3d00 0.01%, #f3ab3f 99.15%);
+  text-align: center;
   cursor: pointer;
   user-select: none;
   -webkit-background-clip: text;
   color: transparent;
-  border: 2px solid #fe4f0a;
+  border: 1px solid #fe4f0a;
   padding: 1.2rem 2.5rem;
   border-radius: 20rem;
   font-family: "Poppins", sans-serif;
@@ -310,7 +317,7 @@ body {
 .services-section-cards__card {
   text-align: center;
   background-color: #fff;
-  box-shadow: 0px 0px 2.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04), 0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04), 0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
   border-radius: 6.5px;
   width: 24rem;
   min-height: 280px;
@@ -375,7 +382,7 @@ body {
 }
 
 .our-growth-section {
-  height: 100vh;
+  width: 100%;
   background: url(../website/img/our-growth-section-background.svg), #f8f9fa;
   background-position: center;
   background-repeat: no-repeat;
@@ -389,10 +396,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75%;
+  width: 100%;
+  padding-block: 8rem;
 }
 .our-growth-section .our-growth-img img {
-  height: 80%;
+  width: 80%;
 }
 
 .review-section {
@@ -601,11 +609,11 @@ body {
 
 .subscription-graph-section {
   text-align: center;
-  height: 130vh;
+  width: 100%;
   background: url(../website/img/our-growth-section-background.svg), #f8f9fa;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: cover;
 }
 .subscription-graph-section--heading {
   padding-top: 8rem;
@@ -615,10 +623,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 100%;
+  width: 100%;
+  padding-block-start: 10rem;
 }
 .subscription-graph-section .graph-img-wrapper img {
-  max-height: 600px;
+  width: 80%;
 }
 .subscription-graph-section--btn {
   margin: 10rem 0;
@@ -655,7 +665,7 @@ body {
   padding: 15px 20px;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.02), 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.03), 0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.04), 0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.04), 0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.05), 0px 100px 80px 0px rgba(0, 0, 0, 0.07);
   color: #191d23;
 }
 .footer-email-input:focus {
@@ -751,15 +761,6 @@ body {
   .footer-box-wrapper .footer--box {
     padding: 25px;
   }
-  .subscription-graph-section .graph-img-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 70%;
-  }
-  .subscription-graph-section .graph-img-wrapper img {
-    max-height: 450px;
-  }
   .services-section-cards {
     padding: 0;
     gap: 2rem;
@@ -775,12 +776,6 @@ body {
   .offer-container p i {
     margin-top: 10px;
     display: block;
-  }
-  .our-growth-section .our-growth-img {
-    height: 75%;
-  }
-  .our-growth-section .our-growth-img img {
-    height: 65%;
   }
   .api-section {
     margin-top: 15rem;
@@ -872,21 +867,6 @@ body {
   .hero-content {
     padding-inline: 2rem;
   }
-  .our-growth-section .our-growth-img {
-    height: 75%;
-  }
-  .our-growth-section .our-growth-img img {
-    height: 45%;
-  }
-  .subscription-graph-section {
-    height: 100vh;
-  }
-  .subscription-graph-section .graph-img-wrapper {
-    height: 40%;
-  }
-  .subscription-graph-section .graph-img-wrapper img {
-    max-height: 300px;
-  }
   .api-section-container {
     display: flex;
     flex-direction: column;
@@ -894,6 +874,13 @@ body {
     align-items: center;
     gap: 7rem;
     margin: 13rem 0;
+  }
+  .api-section-container__img {
+    text-align: center;
+    width: 100%;
+  }
+  .api-section-container__img img {
+    width: 70%;
   }
   .api-section-container__content {
     padding: 0 2rem;
@@ -956,6 +943,19 @@ body {
     font-size: 1.4rem;
     padding-inline: 2rem;
   }
+  .footer .copyrights-and-socail {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer .copyrights-and-socail .title {
+    order: 1;
+    text-align: center;
+  }
+  .plan-section__box__btn {
+    text-align: center;
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 576px) {
   .offer-container p i {
@@ -975,9 +975,6 @@ body {
     align-items: center;
     color: #fff;
   }
-  .our-growth-section {
-    height: 70vh;
-  }
   .review-section-heading-and-btn {
     display: flex;
     flex-direction: column;
@@ -988,9 +985,6 @@ body {
   .review-section--heading-2 {
     width: 100%;
     line-height: 1.4;
-  }
-  .subscription-graph-section .graph-img-wrapper img {
-    max-height: 200px;
   }
   .hero-content__heading-1 {
     font-size: 2.5rem;
@@ -1040,5 +1034,32 @@ body {
   }
   .footer {
     padding: 0 1rem;
+  }
+}
+@media (max-width: 350px) {
+  .hero .nav__items {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .plan-section-container .plan-packages-container .package .price-and-months {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media (min-width: 1500px) {
+  .api-section {
+    margin-top: -30rem;
+  }
+  .api-section .chart-container {
+    position: relative;
+    z-index: 2;
+    top: 0vh;
+    right: 0vw;
+    width: 100%;
   }
 }
